@@ -19,7 +19,7 @@ var Container = React.createClass({
   render: function(){
     return(
       <div className="container">
-      <h1>UK Opening This Week</h1>
+      <h2>UK Opening This Week</h2>
       <List movies = {this.state.data} />
       <h5>See more opening this week >> </h5>
       <button type ="button">Awesome Button</button>
